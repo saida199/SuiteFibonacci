@@ -11,7 +11,7 @@ def fibonacci(n):
             a, b = b, a + b
         return b
 
-# Exemple d'utilisation
 n = int(input("Quel terme de la suite de Fibonacci veux-tu ? "))
 resultat = fibonacci(n)
+
 print(f"Le {n}ᵉ terme de la suite de Fibonacci est : {resultat}")
